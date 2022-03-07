@@ -4,7 +4,15 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'spider-red': '#E5111A',
+        'spider-dark-red': '#CE131B',
+      },
+      backgroundImage: {
+        'spidey-logo': "url('/background-logo-spidey.png')"
+      }
+    },
   },
   plugins: [],
 }
